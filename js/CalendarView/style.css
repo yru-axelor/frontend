@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.heading {
+    display: flex;
+    line-height: 2px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 4px 18px;
+}
+
+table {
+    height: 300px;
+}
+
+thead {
+    font-weight: 545;
+}
+
+/* h3 {
+    background-color: aquamarine;
+} */
+
+.btn {
+    height: 30px;
+    width: 50px;
+    background-color: rgb(70, 70, 202);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
