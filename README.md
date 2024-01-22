@@ -47,8 +47,4 @@
 |git config --global user.email "your_email_address@example.com"|	Set globally Email id|
 |git config --global --list |	Get global config|
 |git reset --soft  < commit> |  to reset the current branch to a specific commit. |
-
-
-
-
-|git rebase < base> |to modify the commit history.|
+| git rebase < base> | to modify the commit history. |
